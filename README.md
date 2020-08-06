@@ -1,3 +1,4 @@
+this is the html button  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 /**** page upload ready for js to start****/
 
 if (document.readyState == 'loading') { 
@@ -170,7 +171,7 @@ function updateCartTotal() {
         var priceElement = cartRow.getElementsByClassName('cart-price')[0] 
         var quantityElement = cartRow
         .getElementsByClassName('cart-quantity-input')[0] 
-        var price = parseFloat(priceElement.innerText.replace('$', '')) 
+        var price = parseFloat(priceElement.innerText.replace('Ksh', '')) 
         
 /******* the 'parseFloat' transforms the string to an integer,  *******/       
         
