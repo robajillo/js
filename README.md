@@ -1,4 +1,4 @@
-this is the html button  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+/***this is the html button  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>***/
 /**** page upload ready for js to start****/
 
 if (document.readyState == 'loading') { 
@@ -181,7 +181,7 @@ function updateCartTotal() {
 /******this rounds the integer amount to two decimels *******/                         
     
     total = Math.round(total * 100) / 100 
-           document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total 
+           document.getElementsByClassName('cart-total-price')[0].innerText = 'Ksh' + total 
 }
 
 
